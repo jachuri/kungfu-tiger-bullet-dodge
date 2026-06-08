@@ -314,11 +314,11 @@ export class GameEngine {
     const scale = this.canvasWidth / 400;
 
     let baseSpeed = 4.5 * scale;
-    let spawnInterval = 1600;
+    let spawnInterval = 800;
 
     if (time < 10) {
       baseSpeed = (4.5 + (time / 10) * 0.6) * scale;
-      spawnInterval = 1600 - (time / 10) * 200;
+      spawnInterval = 800 - (time / 10) * 100;
     } else if (time < 20) {
       baseSpeed = (5.1 + ((time - 10) / 10) * 0.7) * scale;
       spawnInterval = 1400 - ((time - 10) / 10) * 200;
