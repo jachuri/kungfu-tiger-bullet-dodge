@@ -21,9 +21,11 @@ export class Bullet {
       this.width = Math.round(36 * scale);
       this.height = Math.round(14 * scale);
 
-      // Y좌표: 바닥 위 캐릭터 높이부터 점프 최대 높이까지
-      const minY = canvasHeight * 0.25;
-      const maxY = canvasHeight * 0.82;
+      // Y좌표: 플레이어 활동 영역에만 생성 (바닥 ~ 2단 점프 최대 높이)
+      const groundY = canvasHeight * 0.94;
+      const maxJumpReach = canvasHeight * 0.45; // 2단 점프 최대 도달 높이
+      const minY = groundY - maxJumpReach;
+      const maxY = groundY - canvasHeight * 0.04; // 바닥 약간 위
       this.y = minY + Math.random() * (maxY - minY);
 
       if (this.type === 'left') {

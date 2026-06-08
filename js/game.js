@@ -34,6 +34,9 @@ export class GameEngine {
     this.lastTime = 0;
     this.spawnTimer = 0;
 
+    // 글로벌 게임 속도 배수 (1.0 = 기본, 0.85 = 15% 감속)
+    this.gameSpeed = 0.85;
+
     // 파티클
     this.particles = [];
 
@@ -60,20 +63,30 @@ export class GameEngine {
     const rect = container.getBoundingClientRect();
     const dpr = window.devicePixelRatio || 1;
 
+    // 게임 영역 비율 제한 (최대 3:4, 너비:높이)
+    // 세로가 너무 길면 총알 범위가 넓어져 긴장감이 사라짐
+    const maxRatio = 1.35; // height / width 최대값
+    let logicW = rect.width;
+    let logicH = rect.height;
+
+    if (logicH / logicW > maxRatio) {
+      logicH = Math.round(logicW * maxRatio);
+    }
+
     // CSS 크기
-    this.canvas.style.width = rect.width + 'px';
-    this.canvas.style.height = rect.height + 'px';
+    this.canvas.style.width = logicW + 'px';
+    this.canvas.style.height = logicH + 'px';
 
     // 내부 해상도 (고DPI 대응)
-    this.canvas.width = Math.round(rect.width * dpr);
-    this.canvas.height = Math.round(rect.height * dpr);
+    this.canvas.width = Math.round(logicW * dpr);
+    this.canvas.height = Math.round(logicH * dpr);
 
     // 스케일 적용
     this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
     // 논리적 크기 (게임 좌표계)
-    this.canvasWidth = rect.width;
-    this.canvasHeight = rect.height;
+    this.canvasWidth = logicW;
+    this.canvasHeight = logicH;
   }
 
   // 리사이즈 핸들러
@@ -141,7 +154,7 @@ export class GameEngine {
 
     const dt = (currentTime - this.lastTime) / 1000;
     this.lastTime = currentTime;
-    const limitedDt = Math.min(dt, 0.1);
+    const limitedDt = Math.min(dt, 0.1) * this.gameSpeed;
 
     this.update(limitedDt);
     this.draw();
