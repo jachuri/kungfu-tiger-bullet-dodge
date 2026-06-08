@@ -3,7 +3,7 @@
  * 게임에 필요한 모든 정적 에셋을 캐시하여 오프라인 플레이 가능
  */
 
-const CACHE_NAME = 'kungfu-tiger-v2';
+const CACHE_NAME = 'kungfu-tiger-v3';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
