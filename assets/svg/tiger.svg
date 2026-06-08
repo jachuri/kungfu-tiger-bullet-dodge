@@ -1,0 +1,85 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 쿵푸 호랑이 기본 포즈 -->
+  <g id="tiger-standing">
+    <!-- 꼬리 -->
+    <path d="M 35,74 Q 15,70 10,85 Q 8,92 15,92 Q 20,90 16,84" fill="none" stroke="#F27C22" stroke-width="6" stroke-linecap="round" />
+    <path d="M 28,71 L 27,75" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 20,70 L 19,74" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 12,77 L 13,81" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 11,86 L 14,88" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+
+    <!-- 다리 (기마 자세) -->
+    <!-- 왼다리 -->
+    <path d="M 38,75 L 25,82 L 25,90 L 33,90 L 38,80 Z" fill="#1B5E20" />
+    <ellipse cx="27" cy="91" rx="6" ry="3.5" fill="#FFFFFF" />
+    <!-- 오른다리 -->
+    <path d="M 62,75 L 75,82 L 75,90 L 67,90 L 62,80 Z" fill="#1B5E20" />
+    <ellipse cx="73" cy="91" rx="6" ry="3.5" fill="#FFFFFF" />
+
+    <!-- 녹색 쿵푸 도복 상의 -->
+    <path d="M 32,54 L 68,54 L 63,76 L 37,76 Z" fill="#4CAF50" />
+    
+    <!-- 노란색 띠 -->
+    <rect x="35" y="73" width="30" height="5" fill="#FFEB3B" rx="1" />
+    <!-- 휘날리는 띠 끈 -->
+    <path d="M 52,76 L 56,86" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round" />
+    <path d="M 48,76 L 44,84" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round" />
+
+    <!-- 도복 칼라 및 매듭 단추 -->
+    <line x1="50" y1="54" x2="50" y2="73" stroke="#FFEB3B" stroke-width="2" />
+    <circle cx="50" cy="59" r="2" fill="#FFEB3B" />
+    <circle cx="50" cy="65" r="2" fill="#FFEB3B" />
+
+    <!-- 왼쪽 팔 (앞으로 곧게 뻗은 정권 지르기) -->
+    <path d="M 34,57 L 16,56 L 16,63 L 34,64 Z" fill="#4CAF50" />
+    <!-- 소매 끝 흰색 선 -->
+    <line x1="16" y1="56" x2="16" y2="63" stroke="#FFFFFF" stroke-width="2" />
+    <!-- 주먹 (주황색) -->
+    <circle cx="12" cy="59.5" r="5.5" fill="#F27C22" />
+
+    <!-- 오른쪽 팔 (대각선 위로 막는 포즈) -->
+    <path d="M 66,57 L 82,49 L 85,55 L 66,64 Z" fill="#4CAF50" />
+    <!-- 소매 끝 흰색 선 -->
+    <line x1="82" y1="49" x2="85" y2="55" stroke="#FFFFFF" stroke-width="2" />
+    <!-- 주먹 (주황색) -->
+    <circle cx="85" cy="50" r="5.5" fill="#F27C22" />
+
+    <!-- 머리 연결 목부분 -->
+    <rect x="44" y="48" width="12" height="8" fill="#F27C22" rx="2" />
+
+    <!-- 머리 -->
+    <circle cx="50" cy="35" r="21" fill="#F27C22" />
+
+    <!-- 귀 -->
+    <!-- 왼쪽 귀 -->
+    <path d="M 31,23 Q 23,10 38,15 Z" fill="#F27C22" />
+    <path d="M 33,21 Q 27,13 36,16 Z" fill="#F9A7A7" />
+    <!-- 오른쪽 귀 -->
+    <path d="M 69,23 Q 77,10 62,15 Z" fill="#F27C22" />
+    <path d="M 67,21 Q 73,13 64,16 Z" fill="#F9A7A7" />
+
+    <!-- 호랑이 이마 줄무늬 (王) -->
+    <line x1="45" y1="19" x2="55" y2="19" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="42" y1="23" x2="58" y2="23" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="50" y1="16" x2="50" y2="26" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 호랑이 볼 줄무늬 -->
+    <path d="M 31,34 L 38,35 M 30,38 L 36,38" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <path d="M 69,34 L 62,35 M 70,38 L 64,38" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+
+    <!-- 눈 (진지하고 날카로운 쿵푸 눈빛) -->
+    <!-- 왼눈 -->
+    <ellipse cx="42" cy="32" rx="3.5" ry="5.5" fill="#1A1A1A" />
+    <circle cx="43" cy="30" r="1.2" fill="#FFFFFF" />
+    <path d="M 36,28 Q 42,26 47,30" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <!-- 오른눈 -->
+    <ellipse cx="58" cy="32" rx="3.5" ry="5.5" fill="#1A1A1A" />
+    <circle cx="57" cy="30" r="1.2" fill="#FFFFFF" />
+    <path d="M 64,28 Q 58,26 53,30" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 주둥이와 코 -->
+    <ellipse cx="50" cy="41" rx="7.5" ry="5.5" fill="#FFFFFF" />
+    <polygon points="47,39 53,39 50,42" fill="#1A1A1A" />
+    <path d="M 47,43 Q 50,46 53,43" fill="none" stroke="#1A1A1A" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+</svg>

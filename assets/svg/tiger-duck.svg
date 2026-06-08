@@ -1,0 +1,73 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 쿵푸 호랑이 숙이기 포즈 -->
+  <g id="tiger-ducking">
+    <!-- 꼬리 (바닥에 낮게 깔림) -->
+    <path d="M 35,84 Q 15,82 10,88 Q 8,92 15,92 Q 20,90 17,86" fill="none" stroke="#F27C22" stroke-width="6" stroke-linecap="round" />
+    <path d="M 28,83 L 27,87" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 20,83 L 19,87" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 12,86 L 13,90" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+
+    <!-- 다리 (깊게 쪼그려 앉은 자세) -->
+    <path d="M 35,80 L 22,85 L 22,91 L 34,91 L 37,84 Z" fill="#1B5E20" />
+    <ellipse cx="24" cy="91" rx="5" ry="2.5" fill="#FFFFFF" />
+    <path d="M 65,80 L 78,85 L 78,91 L 66,91 L 63,84 Z" fill="#1B5E20" />
+    <ellipse cx="76" cy="91" rx="5" ry="2.5" fill="#FFFFFF" />
+
+    <!-- 녹색 쿵푸 도복 상의 (낮아짐) -->
+    <path d="M 34,65 L 66,65 L 62,83 L 38,83 Z" fill="#4CAF50" />
+    
+    <!-- 노란색 띠 -->
+    <rect x="36" y="80" width="28" height="4" fill="#FFEB3B" rx="1" />
+    <path d="M 51,82 L 55,90" fill="none" stroke="#FFEB3B" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 48,82 L 44,88" fill="none" stroke="#FFEB3B" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 도복 칼라 및 매듭 단추 -->
+    <line x1="50" y1="65" x2="50" y2="80" stroke="#FFEB3B" stroke-width="2.5" />
+    <circle cx="50" cy="70" r="1.8" fill="#FFEB3B" />
+    <circle cx="50" cy="75" r="1.8" fill="#FFEB3B" />
+
+    <!-- 왼쪽 팔 -->
+    <path d="M 34,68 L 18,76 L 21,82 L 34,74 Z" fill="#4CAF50" />
+    <line x1="18" y1="76" x2="21" y2="82" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="16" cy="78" r="5" fill="#F27C22" />
+
+    <!-- 오른쪽 팔 -->
+    <path d="M 66,68 L 80,60 L 83,66 L 66,74 Z" fill="#4CAF50" />
+    <line x1="80" y1="60" x2="83" y2="66" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="83" cy="62" r="5" fill="#F27C22" />
+
+    <!-- 목 -->
+    <rect x="45" y="58" width="10" height="8" fill="#F27C22" rx="2" />
+
+    <!-- 머리 (Y좌표가 낮아짐) -->
+    <circle cx="50" cy="46" r="18" fill="#F27C22" />
+
+    <!-- 귀 -->
+    <path d="M 34,35 Q 27,24 40,28 Z" fill="#F27C22" />
+    <path d="M 36,33 Q 31,26 38,29 Z" fill="#F9A7A7" />
+    <path d="M 66,35 Q 73,24 60,28 Z" fill="#F27C22" />
+    <path d="M 64,33 Q 69,26 62,29 Z" fill="#F9A7A7" />
+
+    <!-- 이마 줄무늬 (王) -->
+    <line x1="45" y1="32" x2="55" y2="32" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="42" y1="35" x2="58" y2="35" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="50" y1="29" x2="50" y2="38" stroke="#1A1A1A" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- 볼 줄무늬 -->
+    <path d="M 34,45 L 40,46 M 33,48 L 38,48" fill="none" stroke="#1A1A1A" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M 66,45 L 60,46 M 67,48 L 62,48" fill="none" stroke="#1A1A1A" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- 눈 -->
+    <ellipse cx="43" cy="43" rx="3" ry="4.8" fill="#1A1A1A" />
+    <circle cx="44" cy="41" r="1" fill="#FFFFFF" />
+    <path d="M 38,40 Q 43,38 47,41.5" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <ellipse cx="57" cy="43" rx="3" ry="4.8" fill="#1A1A1A" />
+    <circle cx="56" cy="41" r="1" fill="#FFFFFF" />
+    <path d="M 62,40 Q 57,38 53,41.5" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+
+    <!-- 주둥이와 코 -->
+    <ellipse cx="50" cy="51" rx="6.5" ry="4.8" fill="#FFFFFF" />
+    <polygon points="47.5,49.5 52.5,49.5 50,52" fill="#1A1A1A" />
+    <path d="M 47.5,52.5 Q 50,55 52.5,52.5" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 쿵푸 호랑이 점프 포즈 (날아차기) -->
+  <g id="tiger-jumping" transform="rotate(-10 50 50)">
+    <!-- 꼬리 (공중에서 아래로 휘어지며 휘날리는 모양) -->
+    <path d="M 28,68 Q 8,72 5,88 Q 4,94 11,92 Q 15,90 12,83" fill="none" stroke="#F27C22" stroke-width="6" stroke-linecap="round" />
+    <path d="M 22,69 L 20,73" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 14,72 L 12,75" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+    <path d="M 7,80 L 9,83" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round" />
+
+    <!-- 다리 -->
+    <!-- 뒤로 접은 왼다리 -->
+    <path d="M 32,66 L 18,70 L 15,78 L 24,78 L 30,70 Z" fill="#1B5E20" />
+    <ellipse cx="17.5" cy="79" rx="5.5" ry="3" fill="#FFFFFF" transform="rotate(15 17.5 79)" />
+
+    <!-- 앞으로 힘차게 뻗은 오른다리 (옆차기) -->
+    <path d="M 50,68 L 82,78 L 80,85 L 48,74 Z" fill="#1B5E20" />
+    <!-- 발끝 (타격점) -->
+    <ellipse cx="84" cy="80" rx="7" ry="4" fill="#FFFFFF" transform="rotate(18 84 80)" />
+
+    <!-- 녹색 도복 상의 -->
+    <path d="M 28,48 L 60,42 L 53,68 L 30,70 Z" fill="#4CAF50" />
+
+    <!-- 노란색 띠 (공중에서 휘날림) -->
+    <rect x="29" y="67" width="24" height="5" fill="#FFEB3B" rx="1" transform="rotate(3 41 69)" />
+    <!-- 날아갈 듯 흩날리는 끈 -->
+    <path d="M 36,71 Q 32,83 26,85" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round" />
+    <path d="M 40,71 Q 42,82 46,86" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round" />
+
+    <!-- 단추 라인 -->
+    <line x1="44" y1="45" x2="41" y2="67" stroke="#FFEB3B" stroke-width="2" />
+    <circle cx="43" cy="50" r="2" fill="#FFEB3B" />
+    <circle cx="42.2" cy="58" r="2" fill="#FFEB3B" />
+
+    <!-- 왼쪽 팔 (뒤로 뻗어 균형 유지) -->
+    <path d="M 28,50 L 10,43 L 8,49 L 26,56 Z" fill="#4CAF50" />
+    <line x1="10" y1="43" x2="8" y2="49" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="6.5" cy="45" r="5" fill="#F27C22" />
+
+    <!-- 오른쪽 팔 (앞으로 방어 혹은 지르기) -->
+    <path d="M 55,44 L 75,34 L 78,40 L 58,50 Z" fill="#4CAF50" />
+    <line x1="75" y1="34" x2="78" y2="40" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="79" cy="35.5" r="5" fill="#F27C22" />
+
+    <!-- 목 -->
+    <rect x="36" y="38" width="12" height="8" fill="#F27C22" rx="2" transform="rotate(-10 42 42)" />
+
+    <!-- 머리 (비장한 각도) -->
+    <circle cx="42" cy="27" r="19" fill="#F27C22" />
+
+    <!-- 귀 -->
+    <path d="M 25,18 Q 16,7 30,10 Z" fill="#F27C22" />
+    <path d="M 27,16 Q 20,9 29,11 Z" fill="#F9A7A7" />
+    <path d="M 59,16 Q 66,5 52,10 Z" fill="#F27C22" />
+    <path d="M 57,14 Q 62,7 54,9 Z" fill="#F9A7A7" />
+
+    <!-- 이마 줄무늬 -->
+    <line x1="37" y1="13" x2="46" y2="11" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="35" y1="17" x2="49" y2="15" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="42.5" y1="10" x2="40.5" y2="20" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 볼 줄무늬 -->
+    <path d="M 25,27 L 31,27 M 25,31 L 30,31" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <path d="M 59,25 L 53,26 M 60,29 L 54,30" fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+
+    <!-- 날카로운 눈 -->
+    <ellipse cx="35" cy="24.5" rx="3" ry="5" fill="#1A1A1A" />
+    <circle cx="36" cy="22.5" r="1" fill="#FFFFFF" />
+    <path d="M 29,21 Q 35,19 39,23" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+
+    <ellipse cx="49" cy="23.5" rx="3" ry="5" fill="#1A1A1A" />
+    <circle cx="48" cy="21.5" r="1" fill="#FFFFFF" />
+    <path d="M 55,20 Q 49,18 45,22" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- 입/코 -->
+    <ellipse cx="42" cy="33" rx="7" ry="5" fill="#FFFFFF" />
+    <polygon points="39,31 45,31 42,34" fill="#1A1A1A" />
+    <path d="M 39,35 Q 42,38 45,35" fill="none" stroke="#1A1A1A" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+</svg>

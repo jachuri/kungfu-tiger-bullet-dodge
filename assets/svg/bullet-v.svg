@@ -1,0 +1,18 @@
+<svg viewBox="0 0 20 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 하늘에서 낙하하는 차가운 푸른색/에메랄드색 그라데이션 -->
+    <linearGradient id="bulletGradV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2979FF" stop-opacity="0" />
+      <stop offset="40%" stop-color="#2979FF" />
+      <stop offset="80%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <!-- 위에서 아래로 떨어지는 쐐기 모양 에너지 탄환 -->
+  <path d="M 10,50 C 5,40 4,25 7,0 C 9,12 11,12 13,0 C 16,25 15,40 10,50 Z" fill="url(#bulletGradV)" />
+  <!-- 내부 코어 섬광 (아래 탄두 쪽에 위치) -->
+  <ellipse cx="10" cy="40" rx="3.5" ry="8" fill="#FFFFFF" />
+  <!-- 작은 스파크 파티클 -->
+  <circle cx="8" cy="20" r="1.5" fill="#00E5FF" opacity="0.8" />
+  <circle cx="13" cy="15" r="1" fill="#2979FF" opacity="0.6" />
+</svg>
